@@ -8,7 +8,6 @@
   Chart.register(...registerables);
 
   let barChartElement: HTMLCanvasElement;
-  let chart: Chart | null = null;
 
   const chartData = {
     labels: satisfactionData2021.map(({ framework }) => framework),
@@ -40,7 +39,7 @@
 
   onMount(() => {
     if (browser) {
-      chart = new Chart(barChartElement, {
+      new Chart(barChartElement, {
         type: 'bar',
         data: chartData,
         plugins: [
