@@ -1,6 +1,8 @@
 {
 	"name": "svelte-chartjs",
 	"version": "0.0.1",
+	"license": "BSD-3-Clause",
+	"description": "Svelte Charts: how quickly and easily you can add customised charts to your SvelteKit, Astro or other Svelte apps with Chart.js.",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
@@ -13,38 +15,45 @@
 		"format": "prettier --write --plugin-search-dir=. ."
 	},
 	"devDependencies": {
-		"@commitlint/config-conventional": "^17.0.3",
-		"@fontsource/merriweather": "^4.5.13",
+		"@commitlint/config-conventional": "^17.1.0",
+		"@fontsource/merriweather": "^4.5.14",
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/kit": "next",
 		"@types/chart.js": "^2.9.37",
-		"@types/node": "^18.7.13",
-		"@typescript-eslint/eslint-plugin": "^5.33.1",
-		"@typescript-eslint/parser": "^5.33.1",
+		"@types/node": "^18.8.4",
+		"@typescript-eslint/eslint-plugin": "^5.40.0",
+		"@typescript-eslint/parser": "^5.40.0",
 		"chart.js": "^3.9.1",
-		"commitlint": "^17.0.3",
-		"eslint": "^8.22.0",
+		"commitlint": "^17.1.2",
+		"eslint": "^8.25.0",
 		"eslint-config-prettier": "^8.5.0",
 		"eslint-plugin-svelte3": "^4.0.0",
 		"husky": "^8.0.1",
 		"postcss-html": "^1.5.0",
 		"prettier": "^2.7.1",
-		"prettier-plugin-svelte": "^2.7.0",
-		"stylelint": "^14.10.0",
+		"prettier-plugin-svelte": "^2.8.0",
+		"stylelint": "^14.13.0",
 		"stylelint-config-recommended": "^9.0.0",
 		"stylelint-config-standard": "^28.0.0",
-		"svelte": "^3.49.0",
-		"svelte-check": "^2.8.0",
+		"svelte": "^3.51.0",
+		"svelte-check": "^2.9.2",
 		"svelte-preprocess": "^4.10.7",
 		"ts-node": "^10.9.1",
 		"tslib": "^2.4.0",
-		"typescript": "^4.7.4",
-		"vite": "^3.0.7"
+		"typescript": "^4.8.4",
+		"vite": "^3.1.7"
 	},
 	"type": "module",
 	"peerDependencies": {
 		"@types/node": "^18.7.13",
 		"ts-node": "^10.9.1",
 		"vite": "^3.0.7"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/rodneylab/svelte-chartjs"
+	},
+	"bugs": {
+		"url": "https://github.com/rodneylab/svelte-chartjs/issues"
 	}
 }
