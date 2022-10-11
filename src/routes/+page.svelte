@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { browser } from '$app/env';
+	import { browser } from '$app/environment';
 	import { FY2021 as satisfactionData2021 } from '$lib/data/satisfaction.json';
 	import '@fontsource/merriweather';
 	import { Chart, registerables } from 'chart.js';
