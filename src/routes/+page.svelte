@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { browser } from '$app/environment';
 	import { FY2021 as satisfactionData2021 } from '$lib/data/satisfaction.json';
+	import '$lib/styles/global.css';
 	import '@fontsource/merriweather';
 	import { Chart, registerables } from 'chart.js';
 	import { onMount } from 'svelte';
@@ -98,28 +99,6 @@
 </main>
 
 <style>
-	:global(html) {
-		background-color: var(--colour-theme);
-		font-family: Merriweather;
-	}
-	:global(h1) {
-		color: var(--colour-dark);
-		font-size: var(--font-size-6);
-	}
-	:global(:root) {
-		--colour-theme: hsl(43 100% 52%); /* selective yellow */
-		--colour-brand: hsl(13 46% 25%); /* irish coffee */
-		--colour-alt: hsl(346 89% 70%); /* froly */
-		--colour-light: hsl(75 100% 98%); /* ceramic */
-		--colour-dark: hsl(182 83% 9%); /* tiber */
-
-		--spacing-12: 3rem;
-		--spacing-18: 4.5rem;
-
-		--max-width-wrapper: 48rem;
-
-		--font-size-6: 3.052rem;
-	}
 	.main-container {
 		width: min(100% - var(--spacing-12), var(--max-width-wrapper));
 		margin: var(--spacing-18) auto;
